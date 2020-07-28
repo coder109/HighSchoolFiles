@@ -56,7 +56,7 @@ def calc():
                 R2=result[3]
 
                 #Output
-                msg.showinfo(title="Result:",message="f(x)="+str(a)+"x+"+str(b)+'\n'+"The list of ei:"+result_ei+'\n'+"R2 is"+str(R2))
+                msg.showinfo(title="Result:",message="f(x)="+str(b)+"x+"+str(a)+'\n'+"The list of ei:"+result_ei+'\n'+"R2 is"+str(R2))
 
 #Button
 btn=Button(window,text="Calculate",command=calc)
