@@ -1,0 +1,17 @@
+.linear{
+    width: 100px;
+    height: 100px;
+    background-color:white;
+}
+.linear:hover{
+    animation:mylinear 1s forwards ease;
+    animation-delay: 0s;
+    transition-timing-function: linear;
+    animation-duration: 3s;
+}
+@keyframes mylinear{
+    from{}
+    to{
+        background-color:#66ccff;
+    }
+}

@@ -1,0 +1,20 @@
+.neon{
+    font-family: Brush Script Std;
+    color: aliceblue;
+    font-size: 60px;
+    animation:neon 0.11s infinite ease-in-out alternate;
+    animation-delay: 0s;
+    color: cyan;
+}
+@keyframes neon{
+    from{
+        text-shadow: 0 0 3px #66ccff ,
+        0 0 5px cyan,
+        0 0 7px blue;
+    }
+    to{
+        text-shadow: 0 0 3px #66ccff ,
+        0 0 6px cyan,
+        0 0 8px blue;
+    }
+}

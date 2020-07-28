@@ -1,0 +1,12 @@
+.ganying:hover{
+        animation: ganying 0.2s forwards ease;
+        animation-duration: 0.2s;
+        animation-delay: 0s;
+}
+.ganying{
+        opacity: 0.9;
+}
+@keyframes ganying{
+        from{}
+        to{opacity: 1;}
+}

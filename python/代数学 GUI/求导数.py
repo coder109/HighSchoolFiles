@@ -1,0 +1,10 @@
+import sympy
+x=sympy.Symbol("x")
+print("请输入方程")
+ipt=input()
+a=sympy.diff(ipt,x)
+print("导函数为")
+print(a)
+b=sympy.solve(a)
+print("零点为")
+print(b)

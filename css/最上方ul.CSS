@@ -1,0 +1,26 @@
+.topul{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    text-align: center;
+    list-style: none;
+    width:450px;
+    height:30px;
+    border:2px solid #66ccff;
+}
+.topulli{
+    display: inline-block;
+    color:#ccffff;
+}
+body{
+    background-color:black;
+}
+.topul:hover{
+    box-shadow: 0 0 50px #66ccff;
+    animation: anime forwards;
+    animation-delay: 0s;
+}
+@keyframes anime {
+    from{}
+    to{background-image:linear-gradient(#66ccff,blue);}
+}

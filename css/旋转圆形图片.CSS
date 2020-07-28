@@ -1,0 +1,8 @@
+.pic:hover{
+    transform: rotate(360deg);
+    transition: all 1.5s ease ;
+}
+.pic{
+    border-radius: 500px;
+    border: solid #dddfdc;
+}
