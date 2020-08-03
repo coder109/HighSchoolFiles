@@ -29,7 +29,6 @@ def enc():#Encode
     try:
         x=etr_dec.get()
         tmp_li=[]
-        tmp_x=list(x)
         for i in list(x):
             try:
                 int(i)
