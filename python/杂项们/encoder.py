@@ -15,7 +15,7 @@ else:
     i=0
     lis=[]
     while i<20:
-        num_dict=rd.randint(65,122)
+        num_dict=rd.randint(33,126)#65,122
         chac=chr(num_dict)
         lis.append(chac)
         i=i+1
