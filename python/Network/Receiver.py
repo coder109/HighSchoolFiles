@@ -19,13 +19,14 @@ def start():
     else:
         headers={}
     r=get(url,headers=headers)
+    msg.showinfo(title='Info',message=r)
 
 #CreateWindow
 window=Tk()
 window.geometry("500x500")
 
 #Labels
-lbl_url=Label(window,text="Url:")
+lbl_url=Label(window,text="Url: http://www.")
 lbl_url.grid(column=0,row=0)
 
 #Entry
