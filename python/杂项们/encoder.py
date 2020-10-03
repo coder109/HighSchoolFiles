@@ -3,6 +3,13 @@
 import random as rd
 import sys
 
+'''
+原理备忘：
+一级密钥：33-126之间随机选择数字(num_dict)，作为ASCII转换为十进制。
+二级密钥：临时随机数(num_temp)。
+密文：将明文的元素转为ASCII与临时随机数相乘，生成数字为该字符的密文。
+'''
+
 #Judgement
 #Main
 #Input
