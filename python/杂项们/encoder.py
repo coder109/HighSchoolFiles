@@ -14,6 +14,8 @@ import sys
 #Main
 #Input
 wrd=input("输入要加密的语句:")
+#f=open('test.txt','r')
+#wrd=f.read()
 if len(wrd)==0:
     sys.exit(1)
 
